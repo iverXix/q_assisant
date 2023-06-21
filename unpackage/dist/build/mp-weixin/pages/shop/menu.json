@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "菜单页面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-row": "/uni_modules/uni-row/components/uni-row/uni-row",
+    "uni-col": "/uni_modules/uni-row/components/uni-col/uni-col",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider"
+  }
+}

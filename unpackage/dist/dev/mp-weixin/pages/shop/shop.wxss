@@ -1,0 +1,136 @@
+
+.scroll-view_H {
+	white-space: nowrap;
+	width: 95%;
+	margin-left: 5px;
+}
+.scroll-view-item_H {
+	display: inline-block;
+	width: 150px;
+	height: 200rpx;
+	line-height: 50rpx;
+	padding-bottom: 30px;
+	text-align: center;
+	font-size: 36rpx;
+}
+.bg_fg {
+	background-color: #f3f4f8;
+	width: 100%;
+	height: 10px;
+	margin-top: -30px;
+}
+.bg_fg2 {
+	background-color: #f3f4f8;
+	width: 100%;
+	height: 10px;
+}
+.shop_bg {
+	width: 100%;
+	height: 120px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	position: absolute;
+	-webkit-filter: opacity(80%);
+	        filter: opacity(80%);
+}
+.shuju {
+	width: 93%;
+	height: 150px;
+	background-color: white;
+	border-radius: 12px;
+	box-shadow: 2px 1px 10px 0px #8888;
+	margin: 60px 14px;
+}
+.shop_p {
+	width: 100px;
+	height: 80px;
+	position: relative;
+	float: right;
+	margin-right: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+}
+.shop_name {
+	font-size: 18px;
+	font-weight: 550;
+	letter-spacing: 3px;
+	padding: 20px 0px 5px 20px;
+}
+.shop_x {
+	margin-top: -50px;
+	margin-left: 15px;
+}
+.dz {
+	font-size: 19rpx;
+	font-weight: 550;
+	margin: 20px 0px -15px 5px;
+	color: darkgray;
+}
+.shop_tel {
+	font-size: 13px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	color: dimgrey;
+	font-weight: 550;
+}
+.menu {
+	width: 100px;
+	height: 80px;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+.text {
+	font-size: 12px;
+	font-weight: 550;
+}
+.touxiang ._img {
+	width: 45px;
+	height: 45px;
+	border-radius: 100px;
+	margin: 10px 0px 0px 15px;
+	position: absolute;
+}
+.pinjia {
+	margin: 8px 0px 0px 75px;
+}
+.name {
+	font-size: 14px;
+	font-weight: 550;
+	color: #446689;
+	letter-spacing: 1px;
+}
+.level {
+	font-size: 9px;
+	color: #8888;
+	letter-spacing: 1px;
+	padding-top: 3px;
+}
+.dafen {
+	margin-left: -2px;
+	margin-top: 2px;
+}
+.p_text {
+	/* border: 1px solid blue; */
+	width: 90%;
+	font-size: 12px;
+	line-height: 20px;
+	margin-top: 5px;
+	padding-bottom: 10px;
+}
+.u_com ._img {
+	margin: 0;
+	padding: 0;
+	width: 80px;
+	height: 70px;
+}
+.date {
+	font-size: 9px;
+	color: #8888;
+	letter-spacing: 1px;
+	padding-top: 3px;
+	margin-right: 32px;
+	float: right;
+}
+

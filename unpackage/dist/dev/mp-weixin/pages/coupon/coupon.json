@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "福利中心",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-data-select": "/uni_modules/uni-data-select/components/uni-data-select/uni-data-select",
+    "uni-search-bar": "/uni_modules/uni-search-bar/components/uni-search-bar/uni-search-bar",
+    "uni-row": "/uni_modules/uni-row/components/uni-row/uni-row",
+    "uni-col": "/uni_modules/uni-row/components/uni-col/uni-col",
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider"
+  }
+}

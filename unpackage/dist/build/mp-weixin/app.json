@@ -1,0 +1,72 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/index/index",
+    "pages/home/home",
+    "pages/search/search",
+    "pages/coupon/coupon",
+    "pages/coupon/user_coupon",
+    "pages/user/user",
+    "pages/shop/shop",
+    "pages/evaluate/evaluate",
+    "pages/search/search-list",
+    "pages/shop/menu",
+    "pages/shop/evaluateList"
+  ],
+  "subPackages": [
+    {
+      "root": "pages_admin",
+      "pages": [
+        "pages/admin/adminLogin/adminLogin",
+        "pages/admin/adminHome/adminHome",
+        "pages/coupons/list",
+        "pages/coupons/add",
+        "pages/coupons/edit",
+        "pages/coupons/detail",
+        "pages/food/list",
+        "pages/food/add",
+        "pages/food/edit",
+        "pages/food/detail",
+        "pages/food-evaluate/list",
+        "pages/food-evaluate/edit",
+        "pages/food-evaluate/detail",
+        "pages/shops/list",
+        "pages/shops/add",
+        "pages/shops/edit",
+        "pages/shops/detail"
+      ]
+    }
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#333333",
+    "selectedColor": "#fddb00",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/tabbar/home.png",
+        "selectedIconPath": "static/tabbar/home_in.png"
+      },
+      {
+        "text": "福利中心",
+        "pagePath": "pages/coupon/coupon",
+        "iconPath": "static/tabbar/coupon.png",
+        "selectedIconPath": "static/tabbar/coupon_in.png"
+      },
+      {
+        "text": "个人中心",
+        "pagePath": "pages/user/user",
+        "iconPath": "static/tabbar/user.png",
+        "selectedIconPath": "static/tabbar/user_in.png"
+      }
+    ]
+  },
+  "lazyCodeLoading": "requiredComponents",
+  "usingComponents": {}
+}

@@ -1,0 +1,46 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"c_name": {
+			"bsonType": "string",
+			"title": "优惠券名称",
+			"description": "优惠券名称"
+		},
+		"c_time": {
+			"bsonType": "string",
+			"title": "使用时间",
+			"description": "使用时间"
+		},
+		"c_score": {
+			"bsonType": "string",
+			"title": "积分价值",
+			"description": "积分价值"
+		},
+		"c_price": {
+			"bsonType": "string",
+			"title": "面值",
+			"description": "面值"
+		},
+		"u_id": {
+			"bsonType": "string",
+			"title": "用户的id",
+			"description": "用户的id"
+		},
+		"c_term": {
+			"bsonType": "string",
+			"title": "使用条件",
+			"description": "使用条件"
+		}
+	}
+}

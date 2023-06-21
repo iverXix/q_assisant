@@ -1,0 +1,1 @@
+.search{padding-top:20rpx;font-size:25rpx;margin-top:-15px}.search-item{padding:20rpx;font-size:12px}.search-title{display:flex;justify-content:space-between;color:grey}.search-name{padding:4rpx 24rpx;display:inline-block;margin:10rpx;border:1px solid #959595;background:#fff;color:#959595;border-radius:20rpx;font-size:27rpx}.search-end{text-align:center;color:#959595}

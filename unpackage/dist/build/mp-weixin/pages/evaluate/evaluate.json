@@ -1,0 +1,11 @@
+{
+  "navigationBarTitleText": "评价页面",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-forms": "/uni_modules/uni-forms/components/uni-forms/uni-forms",
+    "uni-rate": "/uni_modules/uni-rate/components/uni-rate/uni-rate",
+    "uni-file-picker": "/uni_modules/uni-file-picker/components/uni-file-picker/uni-file-picker",
+    "uni-list-item": "/uni_modules/uni-list/components/uni-list-item/uni-list-item",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button"
+  }
+}

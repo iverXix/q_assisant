@@ -1,0 +1,61 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"s_name": {
+			"bsonType": "string",
+			"title": "店名",
+			"description": "店名"
+		},
+		"s_telephone": {
+			"bsonType": "int",
+			"title": "商家电话",
+			"description": "商家电话"
+		},
+		"s_address": {
+			"bsonType": "string",
+			"title": "地址",
+			"description": "地址"
+		},
+		"s_level": {
+			"bsonType": "double",
+			"title": "店名",
+			"description": "店名"
+		},
+		"s_hours": {
+			"bsonType": "timestamp",
+			"title": "营业时间",
+			"description": "营业时间"
+		},
+		"s_category": {
+			"bsonType": "string",
+			"title": "种类",
+			"description": "种类"
+		},
+		"s_description": {
+			"bsonType": "string",
+			"title": "描述",
+			"description": "描述"
+		},
+		"s_img": {
+			"bsonType": "file",
+			"title": "照片",
+			"fileMediaType": "image", // 可选值 all|image|video 默认值为all,表示所有文件，image表示图片类型文件，video表示视频类型文件
+			"fileExtName": "jpg,png" // 扩展名过滤，多个用 , 分割
+		},
+		"s_level":{
+			"bsonType": "double",
+			"title": "档口星级评分",
+			"description": "档口星级评分"
+		}
+	}
+}

@@ -1,0 +1,74 @@
+// 文档教程: https://uniapp.dcloud.net.cn/uniCloud/schema
+{
+	"bsonType": "object",
+	"permission": {
+		"read": true,
+		"create": true,
+		"update": true,
+		"delete": true
+	},
+	"properties": {
+		"_id": {
+			"description": "存储文档 ID（文章 ID），系统自动生成"
+		},
+		"foods_id": {
+			"bsonType": "string",
+			"description": "分类 id，参考`opendb-mall-goods`表",
+			"foreignKey": "food._id"
+		},
+		"user_id": {
+			"bsonType": "string",
+			"description": "用户id",
+			"foreignKey": "uni-id-users._id"
+
+		},
+		"s_name": {
+			"bsonType": "string",
+			"description": "店铺名字",
+			"foreignKey": "shops.s_name"
+		},
+		"nickname": {
+			"bsonType": "string",
+			"label": "昵称",
+			"description": "用户昵称，登录获取的"
+		},
+		"avatarUrl": {
+			"bsonType": "string",
+			"label": "头像",
+			"description": "用户头像图片的 URL，登录获取的"
+		},
+		"all_score": {
+			"bsonType": "double",
+			"description": "总体得分情况"
+		},
+		"content": {
+			"bsonType": "string",
+			"description": "评论内容",
+			"title": "评论内容",
+			"trim": "both"
+		},
+		"create_date": {
+			"bsonType": "timestamp",
+			"description": "评论发表时间",
+			"forceDefaultValue": {
+				"$env": "now"
+			}
+
+		},
+		"u_level": {
+			"bsonType": "string",
+			"label": "用户等级",
+			"description": "用户等级"
+		},
+		"imageValue": {
+			"bsonType": "array",
+			"arrayType": "file",
+			"maxLength": 9,
+			"fileMediaType": "image",
+			"fileExtName": "jpg,png",
+			"title": "图片列表"
+		
+		}
+	},
+	"version": "0.0.1"
+}

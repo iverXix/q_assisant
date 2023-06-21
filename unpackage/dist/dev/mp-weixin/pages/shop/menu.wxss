@@ -1,0 +1,36 @@
+
+.shop {
+		display: flex;
+}
+.photo ._img {
+		width: 65px;
+		height: 65px;
+		margin: 15px 0px 2px 15px;
+		border-radius: 10px;
+}
+.text {
+		margin: 15px;
+		width: 400px;
+}
+.text1 {
+		margin-top: 15px;
+		text-align: left;
+		font-size: 14px;
+		color: #fcd402;
+}
+.text2 {
+		font-size: 12px;
+		margin-left: 15px;
+		color: #CFCFCF;
+}
+.bg_fg2 {
+		background-color: #E8E8E8;
+		height: 0.2px;
+		margin-left: 8px;
+		margin-right: 8px;
+		margin-top: 5px;
+}
+.footer{
+		margin: 0 5px;
+}
+

@@ -1,0 +1,257 @@
+{
+	// 如果您是通过uni_modules形式引入uView，可以忽略此配置
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path": "pages/home/home",
+			"style": {
+
+				"navigationBarTitleText": "轻帮手",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/search/search",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#fddb00"
+			}
+
+		}, {
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "福利中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/coupon/user_coupon",
+			"style": {
+				"navigationBarTitleText": "用户兑换券",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "商家详情",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/evaluate/evaluate",
+			"style": {
+				"navigationBarTitleText": "评价页面",
+				"enablePullDownRefresh": false
+			}
+
+		}
+
+		, {
+			"path": "pages/search/search-list",
+			"style": {
+				"navigationStyle": "custom",
+				"enablePullDownRefresh": false
+			}
+
+		}, {
+			"path": "pages/shop/menu",
+			"style": {
+				"navigationBarTitleText": "菜单页面",
+				"enablePullDownRefresh": false
+			}
+
+		},
+		{
+			"path": "pages/shop/evaluateList",
+			"style": {
+				"navigationBarTitleText": "评论列表",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"subPackages": [ // 分包
+		{
+			"root": "pages_admin",
+			"pages": [
+				{
+					"path": "pages/admin/adminLogin/adminLogin",
+					"style": {
+						"navigationBarTitleText": "管理员登录页面",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/admin/adminHome/adminHome",
+					"style": {
+						"navigationBarTitleText": "管理员首页",
+						"enablePullDownRefresh": false,
+						"navigationBarBackgroundColor": "#fddb00"
+					}
+				},
+				{
+					"path": "pages/coupons/list",
+					"style": {
+						"navigationBarTitleText": "优惠券列表页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/coupons/add",
+					"style": {
+						"navigationBarTitleText": "添加优惠券",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/coupons/edit",
+					"style": {
+						"navigationBarTitleText": "编辑优惠券",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/coupons/detail",
+					"style": {
+						"navigationBarTitleText": "优惠券详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food/list",
+					"style": {
+						"navigationBarTitleText": "食物列表页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food/add",
+					"style": {
+						"navigationBarTitleText": "添加食物",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food/edit",
+					"style": {
+						"navigationBarTitleText": "编辑食物",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food/detail",
+					"style": {
+						"navigationBarTitleText": "食物详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food-evaluate/list",
+					"style": {
+						"navigationBarTitleText": "食物评价列表页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food-evaluate/edit",
+					"style": {
+						"navigationBarTitleText": "编辑食物评价",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/food-evaluate/detail",
+					"style": {
+						"navigationBarTitleText": "食物评价详情",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/shops/list",
+					"style": {
+						"navigationBarTitleText": "档口列表页",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/shops/add",
+					"style": {
+						"navigationBarTitleText": "添加档口",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/shops/edit",
+					"style": {
+						"navigationBarTitleText": "编辑档口信息",
+						"enablePullDownRefresh": false
+					}
+				},
+				{
+					"path": "pages/shops/detail",
+					"style": {
+						"navigationBarTitleText": "档口详情",
+						"enablePullDownRefresh": false
+					}
+				}
+				
+				
+			]
+		}
+	],
+	"tabBar": {
+		"color": "#333333",
+		"selectedColor": "#fddb00",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/home",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home_in.png"
+			},
+			{
+				"text": "福利中心",
+				"pagePath": "pages/coupon/coupon",
+				"iconPath": "static/tabbar/coupon.png",
+				"selectedIconPath": "static/tabbar/coupon_in.png"
+			},
+			{
+				"text": "个人中心",
+				"pagePath": "pages/user/user",
+				"iconPath": "static/tabbar/user.png",
+				"selectedIconPath": "static/tabbar/user_in.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}

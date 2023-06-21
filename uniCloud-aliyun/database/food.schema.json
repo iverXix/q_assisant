@@ -1,0 +1,49 @@
+{
+	"bsonType": "object",
+	"required": [],
+	"permission": {
+		"read": true,
+		"create": false,
+		"update": true,
+		"delete": false
+	},
+	"properties": {
+		"_id": {
+			"description": "ID，系统自动生成"
+		},
+		"f_name": {
+			"bsonType": "string",
+			"title": "食物名称",
+			"description": "食物名称"
+		},
+		"s_name": {
+			"bsonType": "string",
+			"title": "档口名称",
+			"description": "档口名称",
+			"foreignKey": "shops.s_name"
+		},
+		"f_img": {
+			"bsonType": "file",
+			"fileMediaType": "image",
+			"fileExtName": "jpg,png",
+			"title": "食物图片",
+			"description": "食物图片"
+		},
+		"f_price": {
+			"bsonType": "string",
+			"title": "食物价格",
+			"description": "食物价格"
+		},
+		"f_description": {
+			"bsonType": "string",
+			"title": "食物简介",
+			"description": "食物简介"
+		},
+		"f_recom": {
+			"bsonType": "int",
+			"title": "推荐人次",
+			"description": "推荐人次"
+		}
+		
+	}
+}

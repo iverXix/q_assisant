@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "用户兑换券",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "uni-section": "/uni_modules/uni-section/components/uni-section/uni-section",
+    "u-button": "/uni_modules/uview-ui/components/u-button/u-button",
+    "u-divider": "/uni_modules/uview-ui/components/u-divider/u-divider"
+  }
+}
